@@ -4,4 +4,6 @@
 객체를 생성해야 할 때와 만들지 말아야 할 때를 구분하는법, 올바른 객체 생성방법과 불필요한 생성을 피하는 방법, 제때 파괴됨을 보장하고 파괴 전에 수행해야 할 정리 작업을 관리하는 요령을 알아보았습니다.
 
 [Item1. 생성자 대신 정적 팩터리 메서드를 고려하라](https://south-leopard-b1c.notion.site/Item1-bbbb413b4b03402abdec5d01e7daab57?pvs=4) <br>
-[Item2. 생성자에 매개변수가 많다면 빌더를 고려하라](https://south-leopard-b1c.notion.site/Item2-850e4eecc80c416bb63b0c4cd6cc4b1c?pvs=4)
+[Item2. 생성자에 매개변수가 많다면 빌더를 고려하라](https://south-leopard-b1c.notion.site/Item2-850e4eecc80c416bb63b0c4cd6cc4b1c?pvs=4) <br>
+[Item3. private 생성자나 열거 타입으로 싱글턴임을 보증하라](https://south-leopard-b1c.notion.site/Item3-private-5c0751ac2f324729999b133d3bfd971d?pvs=4) <br>
+
