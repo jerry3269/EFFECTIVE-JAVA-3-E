@@ -6,4 +6,6 @@
 [Item1. 생성자 대신 정적 팩터리 메서드를 고려하라](https://south-leopard-b1c.notion.site/Item1-bbbb413b4b03402abdec5d01e7daab57?pvs=4) <br>
 [Item2. 생성자에 매개변수가 많다면 빌더를 고려하라](https://south-leopard-b1c.notion.site/Item2-850e4eecc80c416bb63b0c4cd6cc4b1c?pvs=4) <br>
 [Item3. private 생성자나 열거 타입으로 싱글턴임을 보증하라](https://south-leopard-b1c.notion.site/Item3-private-5c0751ac2f324729999b133d3bfd971d?pvs=4) <br>
+[Item4. 인스턴스화를 막으려거든 private 생성자를 사용하라](https://south-leopard-b1c.notion.site/Item4-private-391438c7ba2b4bff85240abbc77d076d?pvs=4) <br>
+
 
