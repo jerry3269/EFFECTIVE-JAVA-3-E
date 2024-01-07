@@ -23,7 +23,11 @@ public abstract class Pizza {
         // "this"를 반환하도록 해야 한다.
         protected abstract T self();
     }
-    
+
+    public Set<Topping> getToppings() {
+        return toppings;
+    }
+
     Pizza(Builder<?> builder) {
         toppings = builder.toppings.clone(); // 아이템 50 참조
     }

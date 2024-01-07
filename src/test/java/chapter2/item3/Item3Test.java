@@ -1,18 +1,19 @@
-package chapter2.item3.enumtype;
+package chapter2.item3;
+
 
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
-class SingleTonTest {
+class Item3Test {
 
     @DisplayName("원소가 하나일 경우 열거형 타입의 싱글톤을 사용합니다. 싱글톤이기에 항상 같은 인스턴스를 반환합니다.")
     @Test
     void enumTypeSingleTon(){
         //given
-        Elvis instance1 = Elvis.INSTANCE;
-        Elvis instance2 = Elvis.INSTANCE;
+        chapter2.item3.enumtype.Elvis instance1 = chapter2.item3.enumtype.Elvis.INSTANCE;
+        chapter2.item3.enumtype.Elvis instance2 = chapter2.item3.enumtype.Elvis.INSTANCE;
 
         //then
         Assertions.assertThat(instance1).isEqualTo(instance2);

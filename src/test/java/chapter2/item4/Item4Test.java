@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-class InstanceTest {
+class Item4Test {
 
     @DisplayName("추상클래스는 하위클래스를 통한 인스턴스화를 방지하지 못합니다.")
     @Test
