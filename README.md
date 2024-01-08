@@ -11,3 +11,4 @@
 [Item6. 불필요한 객체 생성을 피하라](https://south-leopard-b1c.notion.site/Item6-da5cea7ae7c14882a8de6fb5a9cc8e29?pvs=4) <br>
 [Item7. 다 쓴 객체 참조를 해제하라](https://south-leopard-b1c.notion.site/Item7-41d6fa035ff14a9394edcd30e10fbb6a?pvs=4) <br>
 [Item8. finalizer와 cleaner 사용을 피하라](https://south-leopard-b1c.notion.site/Item8-finalizer-cleaner-b05be4950ff84c6293b029c54405d1ec?pvs=4) <br>
+[Item9. try-finally보다는 try-with-resources를 사용하라](https://south-leopard-b1c.notion.site/Item9-try-finally-try-with-resources-1a3bdb08914c4ae1bceac5064c7726f9?pvs=4) <br>
