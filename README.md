@@ -10,3 +10,4 @@
 [Item5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](https://south-leopard-b1c.notion.site/Item5-5f620339dca241ce8460215d3bc379bd?pvs=4) <br>
 [Item6. 불필요한 객체 생성을 피하라](https://south-leopard-b1c.notion.site/Item6-da5cea7ae7c14882a8de6fb5a9cc8e29?pvs=4) <br>
 [Item7. 다 쓴 객체 참조를 해제하라](https://south-leopard-b1c.notion.site/Item7-41d6fa035ff14a9394edcd30e10fbb6a?pvs=4) <br>
+[Item8. finalizer와 cleaner 사용을 피하라](https://south-leopard-b1c.notion.site/Item8-finalizer-cleaner-b05be4950ff84c6293b029c54405d1ec?pvs=4) <br>
