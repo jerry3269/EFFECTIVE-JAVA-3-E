@@ -28,10 +28,13 @@ Object는 객체를 만들 수 있는 구체 클래스지만 기본적으로는 
 Object에서 final이 아닌 메소드(equals, hashCode, toString, clone, finalize)는 모두 재정의(overriding)를 염두해둔 설계로, 재정의 시 지겨야 하는 규약이 정의되어 있습니다. <br>
 이번 장에서는 final이 아닌 Object 메서드들을 언제 어떻게 재정의해야 하는지를 다룹니다. <Br>
 그중 finalize메서드는 아이템 8에서 다루었습니다. <Br>
-또한, Comparable.compareTo의 경우 Object 메서드는 아니지만 성격이 비슷하여 이번 장에서 함께 다룹니다. <Br>
+또한, Comparable.compareTo의 경우 Object 메서드는 아니지만 성격이 비슷하여 이번 장에서 함께 다룹니다. <Br><Br>
 
 ### 아이템(10~14)
 모든 객체가 공통적으로 가지고 있는 Method들 중, 주요 Override 대상이 되는 Method들을 재정의 할 때 주의해야 할 사항들에 대해 점검해보는 아이템입니다. <Br>
 이를 통해 Override의 방향성을 다시 수립하는 계기가 되었습니다. <Br>
 
 [Item10. equals는 일반 규약을 지켜 재정의하라](https://south-leopard-b1c.notion.site/Item10-equals-4ebec1e9bb854e3594a2eba1dc03d571?pvs=4) <br>
+[Item11. equals를 재정의하려거든 hashCode도 재정의하라](https://south-leopard-b1c.notion.site/Item11-equals-hashCode-e349a8aa61984c29869d7e70af65b5c5?pvs=4) <br>
+[Item12. toString을 항상 재정의하라](https://south-leopard-b1c.notion.site/Item12-toString-2e3ad4e6867649f494f7aaed4fcdb934?pvs=4) <br>
+[Item13. clone 재정의는 주의해서 진행하라](https://south-leopard-b1c.notion.site/Item13-clone-0269e883538d4f879b7318b42e25685a?pvs=4) <br>
