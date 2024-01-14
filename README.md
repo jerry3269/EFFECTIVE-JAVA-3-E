@@ -38,3 +38,4 @@ Object에서 final이 아닌 메소드(equals, hashCode, toString, clone, finali
 [Item11. equals를 재정의하려거든 hashCode도 재정의하라](https://south-leopard-b1c.notion.site/Item11-equals-hashCode-e349a8aa61984c29869d7e70af65b5c5?pvs=4) <br>
 [Item12. toString을 항상 재정의하라](https://south-leopard-b1c.notion.site/Item12-toString-2e3ad4e6867649f494f7aaed4fcdb934?pvs=4) <br>
 [Item13. clone 재정의는 주의해서 진행하라](https://south-leopard-b1c.notion.site/Item13-clone-0269e883538d4f879b7318b42e25685a?pvs=4) <br>
+[Item14. Comparable을 구현할지 고려하라](https://south-leopard-b1c.notion.site/Item14-Comparable-4f2635898aa14c2f842760c35a78d909?pvs=4) <br>
