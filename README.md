@@ -39,3 +39,14 @@ Object에서 final이 아닌 메소드(equals, hashCode, toString, clone, finali
 [Item12. toString을 항상 재정의하라](https://south-leopard-b1c.notion.site/Item12-toString-2e3ad4e6867649f494f7aaed4fcdb934?pvs=4) <br>
 [Item13. clone 재정의는 주의해서 진행하라](https://south-leopard-b1c.notion.site/Item13-clone-0269e883538d4f879b7318b42e25685a?pvs=4) <br>
 [Item14. Comparable을 구현할지 고려하라](https://south-leopard-b1c.notion.site/Item14-Comparable-4f2635898aa14c2f842760c35a78d909?pvs=4) <br>
+
+---
+## chapter4. 클래스와 인터페이스
+추상화의 기본 단위인 클래스와 인터페이스는 자바 언어의 심장과도 같습니다. <br>
+그래서 자바 언어에는 클래스와 인터페이스 설계에 사용하는 강력한 요소들이 많습니다. <Br>
+이번장에서는 이런 요소를 적절히 활용하여 클래스와 인터페이스를 쓰기 편하고, 유연하게 만드는 방법을 알아보았습니다. <Br>
+
+### 아이템(15~19)
+접근제어자와 상속에 대해 다룹니다. <br>
+
+[Item15. 클래스와 멤버의 접근 권한을 최소화하라](https://south-leopard-b1c.notion.site/Item15-479371d7dd274c48b3e25803213ce6fa?pvs=4) <br>
