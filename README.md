@@ -50,3 +50,4 @@ Object에서 final이 아닌 메소드(equals, hashCode, toString, clone, finali
 접근제어자와 상속에 대해 다룹니다. <br>
 
 [Item15. 클래스와 멤버의 접근 권한을 최소화하라](https://south-leopard-b1c.notion.site/Item15-479371d7dd274c48b3e25803213ce6fa?pvs=4) <br>
+[Item16. public 클래스에서는 public 필드가 아닌 접근자 메서드를 사용하라](https://south-leopard-b1c.notion.site/Item16-public-public-b2d0806114f44c36aecdbb7e7043f23e?pvs=4) <br>
