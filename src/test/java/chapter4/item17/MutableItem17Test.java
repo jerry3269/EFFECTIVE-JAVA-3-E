@@ -21,4 +21,14 @@ class MutableItem17Test {
         assertThat(item17.getPf1()).isEqualTo(20);
         assertThat(item17.getPf2()).isEqualTo(40);
     }
+
+    @DisplayName("가변 객체 클래스를 package-private으로 설정하면 외부 패키지에서는 접근할 수 없으므로 불변 객체에서만 사용합니다.")
+    @Test
+    void test2(){
+        //given
+        Item17 item17 = Item17.addOperation(20);
+
+        assertThat(item17.getPf1()).isEqualTo(30);
+        assertThat(item17.getPf2()).isEqualTo(40);
+    }
 }

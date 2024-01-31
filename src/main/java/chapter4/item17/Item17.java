@@ -16,6 +16,13 @@ public class Item17 {
         return new Item17(pf1, pf2);
     }
 
+    public static Item17 addOperation(int num) {
+        MutableItem17 mutableItem17 = new MutableItem17(10, 20);
+        mutableItem17.addPf1(num);
+        mutableItem17.addPf2(num);
+        return new Item17(mutableItem17.getMutablePf1(), mutableItem17.getMutablePf2());
+    }
+
     public int getPf1() {
         return pf1;
     }
@@ -23,6 +30,8 @@ public class Item17 {
     public int getPf2() {
         return pf2;
     }
+
+
 
     @Override
     public int hashCode() {
